@@ -128,27 +128,31 @@
 
               
                 
+
 <div class="lg:col-span-7">
-                
+
+    <div id="video-container" class="fade-in bg-white p-4 rounded-xl shadow-xl border border-brand-gray">
+        <div class="aspect-video w-full rounded-lg overflow-hidden">
+            <iframe 
+                class="w-full h-full" 
+                src="https://www.youtube.com/embed/QiwjpHPev7w" 
+                title="YouTube video player - The Semester Aftermath" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
     </div>
 
-<div id="video-container" class="fade-in bg-white p-4 rounded-xl shadow-xl border border-brand-gray">
-    <div class="aspect-video w-full rounded-lg overflow-hidden">
-        <iframe 
-            class="w-full h-full" 
-            src="https://www.youtube.com/embed/QiwjpHPev7w" 
-            title="YouTube video player - The Semester Aftermath" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
+    <div id="poster-container" class="hidden fade-in bg-white p-4 rounded-xl shadow-xl border border-brand-gray">
+        <div class="aspect-[3/4] w-full bg-brand-gray rounded-lg relative overflow-hidden">
+            <img 
+                src="/poster.JPG" 
+                alt="Promotional Poster" 
+                class="w-full h-full object-cover"
+            >
+        </div>
     </div>
-<div class="aspect-[3/4] w-full bg-brand-gray rounded-lg relative overflow-hidden">
-    <img 
-        src="/poster.JPG" 
-        alt="Promotional Poster" 
-        class="w-full h-full object-cover"
-    >
 </div>
         </main>
 
